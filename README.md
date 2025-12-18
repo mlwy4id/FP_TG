@@ -335,44 +335,5 @@ Program ini menggunakan kombinasi:
 
 Pendekatan ini memberikan visualisasi yang jelas tentang bagaimana subsequence terbentuk, menjadikannya sangat edukatif untuk memahami konsep LIS.
 
----
 
-## 9. Perbandingan dengan Algoritma Lain
 
-| Algoritma | Kompleksitas Waktu | Kompleksitas Ruang | Kelebihan | Kekurangan |
-|-----------|-------------------|-------------------|-----------|------------|
-| Brute Force | O(2^n) | O(n) | Sederhana | Sangat lambat |
-| DP Array | O(n²) | O(n) | Efisien | Kurang visual |
-| **Tree (program ini)** | **O(n²)** | **O(n²)** | **Visual & edukatif** | **Memori lebih besar** |
-| Binary Search + DP | O(n log n) | O(n) | Paling cepat | Kompleks |
-
----
-
-## 10. Troubleshooting
-
-### Program tidak berjalan
-- Pastikan Python 3.x terinstall
-- Periksa syntax error: `python -m py_compile lis_tree.py`
-
-### Output tidak sesuai ekspektasi
-- Verifikasi format input (harus list of integers)
-- Periksa apakah urutan input sudah benar
-
-### Memory error untuk input besar (n > 1000)
-- Tree structure menggunakan banyak memori
-- Untuk input besar, pertimbangkan algoritma DP array atau Binary Search + DP
-
-### Program berjalan lambat
-- Waktu eksekusi bergantung pada jumlah kemungkinan subsequence
-- Untuk n > 50, waktu proses bisa signifikan meningkat
-
----
-
-## 11. Lisensi dan Penggunaan
-
-Program ini dibuat untuk tujuan edukatif dan dapat digunakan secara bebas untuk:
-- Pembelajaran algoritma dan struktur data
-- Tugas akademik
-- Penelitian dan pengembangan
-
-Diperbolehkan untuk dimodifikasi dan didistribusikan dengan tetap mencantumkan sumber asli.
