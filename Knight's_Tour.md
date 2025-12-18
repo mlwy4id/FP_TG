@@ -101,3 +101,12 @@ Jika mode **Closed Tour** dipilih dan posisi akhir dapat menyerang posisi awal, 
 CLOSED TOUR BERHASIL (attacking square)
 ```
 Jika syarat perjalanan tidak terpenuhi, program menampilkan pesan kegagalan.
+
+## 8. Algoritma yang Digunakan
+Program ini menggunakan kombinasi:
+
+- **Backtracking** untuk menelusuri kemungkinan langkah kuda
+
+- **Heuristik Warnsdorff** untuk mengurangi kompleksitas pencarian solusi
+
+Pendekatan ini membuat program lebih efisien dibandingkan pencarian brute-force murni.
