@@ -333,7 +333,6 @@ Program ini menggunakan kombinasi:
 - **Waktu**: O(n²) untuk pembangunan tree, O(n × 2^n) worst case untuk pencarian path
 - **Ruang**: O(n²) untuk struktur tree
 
-Pendekatan ini memberikan visualisasi yang jelas tentang bagaimana subsequence terbentuk, menjadikannya sangat edukatif untuk memahami konsep LIS.
 
 
 
